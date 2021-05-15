@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+  --primary-color: #873cff;
+  --secondary-color: #310080;
+  --grey-bg: #404040;
+  --grey-fg: #363636;
+  --light-200: #ffffff;
+  --light-100: #ffffff;
+}
+
+*{
+  transition: all 0.5s linear;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+.title-text{
+  color: var(--light-100);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.subtitle-text{
+  color: var(--light-100);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card{
+  transition: all 1s ease-out;
+  background-color: var(--grey-fg);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: .5rem;
+  width: auto;
+}
+
+.card-title{
+  color: var(--light-100);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: left;
+  padding: 0.5rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.card2{
+  transition: all 1s ease-out;
+  background-color: var(--grey-bg);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: auto;
+}
+
+.mb-1{
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width:35rem){
+  .card-title{
+    text-align: center;
+  }
+}
+
+.btn{
+  transition: all 0.1s linear;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--light-200);
+  background-color: var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background-color: var(--secondary-color);
+}
+
+.btn:active{
+  background-color: var(--light-100);
+}
