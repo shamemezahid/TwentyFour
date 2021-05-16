@@ -26,10 +26,7 @@ iframe {
     grid-template-columns: 1fr;
   }.home-body-right{
     margin-left: 0;
+  }.home-body-left{
+    margin-bottom: 1rem;
   }
 }
-
-/* .home-body>div {
-  padding: 0.5rem;
-} */
-
