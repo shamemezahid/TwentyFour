@@ -16,6 +16,7 @@
     }
   ],
   "start_url": "/TwentyFour",
+  "scope": "/",
   "background_color": "#FFFFFF",
   "display": "standalone",
   "theme_color": "#FFFFFF"
