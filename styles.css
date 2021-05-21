@@ -14,7 +14,7 @@ nav{
 }
 
 nav > p{
-  color: var(--primary-color);
+  color: var(--primary-color-light);
   font-size: 2rem;
   font-weight: 700;
   margin-top: 2.5rem;
