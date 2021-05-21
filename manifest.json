@@ -3,13 +3,13 @@
   "name": "CHOBBISH",
   "icons": [
     {
-      "src": "/resources/icon192.png",
+      "src": "resources/icon192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "/resources/icon512.png",
+      "src": "resources/icon512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
