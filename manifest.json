@@ -15,7 +15,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/TwentyFour",
+  "start_url": "/TwentyFour/",
   "scope": "/",
   "background_color": "#FFFFFF",
   "display": "standalone",
