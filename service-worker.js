@@ -10,7 +10,8 @@ const PRECACHE_URLS = [
   '/resources/routine.png',
   '/resources/teachers.png',
 ];
-self.addEventListener("install", installEvent => {
+
+this.addEventListener("install", installEvent => {
   installEvent.waitUntil(
     caches.open(CACHEABLES).then(cache => {
       cache.addAll(PRECACHE_URLS)
@@ -18,7 +19,7 @@ self.addEventListener("install", installEvent => {
   )
 })
 
-self.addEventListener("fetch", fetchEvent => {
+this.addEventListener("fetch", fetchEvent => {
   fetchEvent.respondWith(
     caches.match(fetchEvent.request).then(res => {
       return res || fetch(fetchEvent.request)
