@@ -19,5 +19,10 @@
   "scope": "/",
   "background_color": "#FFFFFF",
   "display": "standalone",
-  "theme_color": "#FFFFFF"
+  "theme_color": "#FFFFFF",
+  "prefer_related_applications": true,
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.shameme.twentyfour"
+  }]
 }
